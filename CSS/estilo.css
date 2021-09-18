@@ -1,0 +1,291 @@
+.navBar {
+  background-image: linear-gradient(60deg, #3d0268, #9b026d, #9c013c);
+}
+
+.navBar .listaNavBar {
+  padding: 12px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar .listaNavBar li {
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  position: relative;
+}
+
+.navBar .listaNavBar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.navBar .listaNavBar li .listaCarro {
+  position: absolute;
+  display: none;
+  background-color: gray;
+  border: 1px solid black;
+  z-index: 999;
+  padding: 8px;
+}
+
+.navBar .listaNavBar li .listaCarro .imgCarritoIndex {
+  margin: 40px;
+}
+
+.navBar .listaNavBar li .nombrePagina {
+  font-family: fantasy;
+  font-size: 30px;
+  text-shadow: 4px 4px 3px black;
+  letter-spacing: 3.5px;
+}
+
+.navBar .listaNavBar li .carroDeCompra {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  background-image: linear-gradient(30deg, #e48203, #ff3c00);
+  border-radius: 100%;
+}
+
+.listaNavBar li:hover .listaCarro {
+  display: block;
+}
+
+.contenedorCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedorCards .card {
+  width: 26rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  box-shadow: 9px 9px 6px black;
+  margin-bottom: 20px;
+}
+
+.contenedorCards .card img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 5px black;
+  margin-bottom: 8px;
+}
+
+.contenedorCards .card .card-txt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: monospace;
+  width: 95%;
+  /* estilo de boton de comprar de ps4 */
+}
+
+.contenedorCards .card .card-txt h4 {
+  text-shadow: 5px 5px 4px black;
+}
+
+.contenedorCards .card .card-txt .btn-anadir {
+  width: 100%;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 50px 0px 50px 0px;
+  padding: 10px 0px 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s;
+  text-shadow: 5px 5px 4px black;
+}
+
+.contenedorCards .card .card-txt .btn__ps4--comprar {
+  box-shadow: 5px 5px 4px #01035a;
+}
+
+.contenedorCards .card .card-txt .btn__ps4--comprar:hover {
+  background-image: linear-gradient(90deg, #06069e, #080872, #05054b);
+  border-radius: 0px 50px 0px 50px;
+  box-shadow: -5px -5px 4px black;
+  font-size: 18px;
+}
+
+footer {
+  border-top: 3px solid red;
+  margin-top: 20px;
+  background-image: linear-gradient(95deg, #a8a80b, #8d8d09, #686806);
+}
+
+/* titulo y linea del carrito */
+.contenedorTxtCarrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorTxtCarrito .lineaCarrito {
+  background-color: white;
+  width: 80%;
+  border: white 3px solid;
+}
+
+.contenedorTxtCarrito .txtCarrito {
+  color: blanchedalmond;
+  text-shadow: 4px 4px 4px black;
+  font-family: monospace;
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.contenedorSwith {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.contenedorSwith .switch .nameCheckbox {
+  color: white;
+  font-family: monospace;
+  font-size: 21px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal .txtTerminarDeComprar {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal .txtH3Terminar {
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito {
+  width: 88%;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito .tablaSecondCarrito {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  border: 2px solid black;
+  /* tabla del carrito */
+  /* text e input del total */
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito .tablaSecondCarrito thead tr {
+  padding: 5px;
+  background-image: linear-gradient(60deg, #3d0268, #9b026d, #9c013c);
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito .tablaSecondCarrito thead tr th {
+  color: white;
+  font-size: 22px;
+  font-family: monospace;
+  width: 16.66%;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito .tablaSecondCarrito tr th {
+  color: white;
+  font-size: 28px;
+  font-family: monospace;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .secondCarrito .tablaSecondCarrito tr .inputTotal {
+  border: 0;
+  font-size: 28px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .contenedorBtnComprar {
+  margin-top: 30px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .contenedorBtnComprar .btn-seguirComprando {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid white;
+  width: 45%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .contenedorBtnComprar .btn-seguirComprando:hover {
+  background-image: linear-gradient(60deg, #3d0268, #9b026d, #9c013c);
+  text-shadow: 5px 5px 5px black;
+  font-weight: 700;
+  box-shadow: -8px 8px 8px black;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .contenedorBtnComprar .btn-terminarCompra {
+  color: white;
+  background-color: black;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid white;
+  text-align: center;
+  width: 45%;
+  border-radius: 20px;
+}
+
+.contenedorCOMPRAR .contenedorCompraTotal #formTerminaCompra .contenedorBtnComprar .btn-terminarCompra:hover {
+  background-image: linear-gradient(to left, #58d108, #12994a, #049671);
+  text-shadow: 5px 5px 5px black;
+  box-shadow: 8px 8px 8px black;
+  font-weight: 700;
+}
+
+/* Reseteo completo */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* color de todo el fondo */
+body {
+  background-color: #857777;
+}
+
+.contenedor-tlj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-family: fantasy;
+}
+
+h5 {
+  color: white;
+}

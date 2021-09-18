@@ -1,0 +1,39 @@
+.contenedorCards{
+    .card{
+        border: 2px solid rgb(9, 255, 0);
+        background-color: black;
+        box-shadow: 9px 9px 6px rgb(85, 84, 84);
+        img{
+            box-shadow: 0px 8px 5px black;
+        }
+    
+        .card-txt{
+            color: white;
+            h4{
+                color: rgb(9, 255, 0);
+                text-shadow: 5px 5px 4px black;
+            }
+            .btn-comprar{
+                width: 100%;
+                color: rgb(9, 255, 0);
+                border: 1px solid rgb(9, 255, 0);
+                background-color: transparent;
+                text-shadow: 5px 5px 4px black;
+            }
+
+            .btn-comprar:hover{
+                color: white;
+            }
+    
+            /* estilo de boton de comprar de ps4 */
+            .btn__ps4--comprar{
+                box-shadow: 5px 5px 4px rgb(9, 255, 0);
+            }
+            .btn__ps4--comprar:hover{
+                background-image: linear-gradient(90deg, rgb(2, 255, 44), rgb(57, 179, 0), rgb(13, 172, 13));
+                box-shadow: -5px -5px 4px rgb(9, 255, 0);
+            }
+        }
+        
+    }
+}

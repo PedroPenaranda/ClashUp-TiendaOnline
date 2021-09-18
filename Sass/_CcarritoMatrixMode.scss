@@ -1,0 +1,14 @@
+/* titulo y linea del carrito */
+.contenedorTxtCarrito{
+    .lineaCarrito{
+        border: rgb(85, 84, 84) 3px solid;
+    }
+    .txtCarrito{
+        color: rgb(9, 255, 0);
+        text-shadow: 4px 4px 4px rgb(85, 84, 84);
+        font-family: monospace;
+        font-size: 42px;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+}

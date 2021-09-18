@@ -1,0 +1,26 @@
+.contenedorCards{
+    .card{
+        background-color: black;
+        box-shadow: 9px 9px 6px rgb(85, 84, 84);
+        img{
+            box-shadow: 0px 8px 5px black;
+        }
+    
+        .card-txt{
+            color: white;
+            .btn-comprar{
+                text-shadow: 5px 5px 4px black;
+            }
+
+            .btn-comprar:hover{
+                color: white;
+            }
+    
+            /* estilo de boton de compra */
+            .btn__ps4--comprar:hover{
+                box-shadow: -5px -5px 4px rgb(1, 3, 90)
+            }
+        }
+        
+    }
+}

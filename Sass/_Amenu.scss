@@ -1,0 +1,51 @@
+.navBar{
+    background-image: linear-gradient(60deg, rgb(61, 2, 104), rgb(155, 2, 109), rgb(156, 1, 60));
+    .listaNavBar{
+        padding: 12px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            color:  white;
+            font-size: 20px;
+            font-family: monospace;
+            position: relative;
+            a{
+                color: white;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+
+            .listaCarro{
+                position: absolute;
+                display: none;
+                background-color: gray;
+                border: 1px solid black;
+                z-index: 999;
+                padding: 8px;
+                .imgCarritoIndex{
+                    margin: 40px;
+                }
+            }
+            
+            .nombrePagina{
+                font-family: fantasy;
+                font-size: 30px;
+                text-shadow: 4px 4px 3px black;
+                letter-spacing: 3.5px;
+            }
+            .carroDeCompra{
+                width: 40px;
+                height: 40px;
+                padding: 4px;
+                background-image: linear-gradient(30deg, rgb(228, 130, 3), rgb(255, 60, 0));
+                border-radius: 100%;
+            }
+        }
+    }
+}
+
+.listaNavBar li:hover .listaCarro{
+    display: block;
+}

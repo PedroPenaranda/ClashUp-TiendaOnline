@@ -1,0 +1,108 @@
+.contenedorCOMPRAR{
+    .contenedorCompraTotal{
+        .txtTerminarDeComprar{
+            text-align: center;
+            font-family: monospace;
+            color: white;
+            font-size: 40px;
+            margin: 10px;
+        }
+
+        .txtH3Terminar{
+            text-align: center;
+            font-family: monospace;
+            color: white;
+            margin-bottom: 45px;
+        }
+
+        #formTerminaCompra{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .secondCarrito{
+                width: 88%;
+                .tablaSecondCarrito{
+                    width: 100%;
+                    text-align: center;
+                    padding: 0;
+                    border: 2px solid black;
+                    /* tabla del carrito */
+                    thead{
+                        tr{
+                            padding: 5px;
+                            background-image: linear-gradient(60deg, rgb(61, 2, 104), rgb(155, 2, 109), rgb(156, 1, 60));
+                            th{
+                                color: white;
+                                font-size: 22px;
+                                font-family: monospace;
+                                width: 16.66%;
+                            }
+                        }
+                    }
+
+                    /* text e input del total */
+                    tr{
+                        th{
+                            color: white;
+                            font-size: 28px;
+                            font-family: monospace;
+                        }
+
+                        .inputTotal{
+                            
+                            border: 0;
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .contenedorBtnComprar{
+                margin-top: 30px;
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                .btn-seguirComprando{
+                    color: white;
+                    text-decoration: none;
+                    background-color: black;
+                    font-family: monospace;
+                    font-size: 20px;
+                    padding: 10px;
+                    border: 2px solid white;
+                    width: 45%;
+                    text-align: center;
+                    border-radius: 20px;
+                }
+
+                .btn-seguirComprando:hover{
+                    background-image: linear-gradient(60deg, rgb(61, 2, 104), rgb(155, 2, 109), rgb(156, 1, 60));
+                    text-shadow: 5px 5px 5px black;
+                    font-weight: 700;
+                    box-shadow: -8px 8px 8px black;
+                }
+
+                .btn-terminarCompra{
+                    color: white;
+                    background-color: black;
+                    font-family: monospace;
+                    font-size: 20px;
+                    padding: 10px;
+                    border: 2px solid white;
+                    text-align: center;
+                    width: 45%;
+                    border-radius: 20px;
+                }
+
+                .btn-terminarCompra:hover{
+                    background-image: linear-gradient(to left, rgb(88, 209, 8), rgb(18, 153, 74), rgb(4, 150, 113));
+                    text-shadow: 5px 5px 5px black;
+                    box-shadow: 8px 8px 8px black;
+                    font-weight: 700;
+                }
+            }
+        }
+        
+    }
+}
