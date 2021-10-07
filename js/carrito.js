@@ -122,11 +122,11 @@ class carrito{
             const insertarEnCarrito = document.createElement('tr');
                 insertarEnCarrito.innerHTML = `
                     <td class="imgCarritoIndex">
-                        <img src="${producto.imagen}" width=100>
+                        <img src="${producto.imagen}" width="96%" height="140px">
                     </td>
                     <td class="nombreCarritoIndex">${producto.nombre}</td>
                     <td class="precioCarritoIndex">${producto.precio}</td>
-                    <a href="#" class="btn-borra" data-id="${producto.id}">Borrar</a>
+                    <td><a href="#" class="btn-borra" style="background-color: red; padding: 5px; width: 100%; border-radius: 100px" data-id="${producto.id}">Borrar</a></td>
                 `;
 
                 listadoProducto.appendChild(insertarEnCarrito);
@@ -151,13 +151,13 @@ class carrito{
             const insertarEnCarrito = document.createElement('tr');
                 insertarEnCarrito.innerHTML = `
                     <td class="imgCarritoIndex">
-                        <img src="${producto.imagen}" width=100>
+                        <img src="${producto.imagen}" width="100%">
                     </td>
                     <td class="nombreCarritoComprar">${producto.nombre}</td>
                     <td class="precioCarritoComprar">${producto.precio}</td>
                     <td><input type="number" class="cantidadCarritoComprar" min="1" value="${producto.cantidad}"</input></td>
                     <td id="precioPorItem">${producto.precio * producto.cantidad}</td>
-                    <a href="#" class="btn-borra" data-id="${producto.id}">Borrar</a>
+                    <td><a href="#" class="btn-borra" data-id="${producto.id}">Borrar</a></td>
                 `;
 
                 listaCompra.appendChild(insertarEnCarrito);

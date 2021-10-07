@@ -50,9 +50,13 @@
                         }
 
                         .inputTotal{
-                            
+                            font-family: monospace;
+                            background-color: transparent;
+                            color: white;
                             border: 0;
                             font-size: 28px;
+                            width: 100%;
+                            text-align: center;
                         }
                     }
                 }

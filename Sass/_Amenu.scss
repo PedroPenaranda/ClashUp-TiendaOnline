@@ -49,3 +49,20 @@
 .listaNavBar li:hover .listaCarro{
     display: block;
 }
+
+.listaCarro{
+    width: 460px;
+    .listaDeProductosEnCarrito{
+        width: 100%;
+        tr{
+            background-image: linear-gradient(30deg, rgb(167, 6, 6), rgb(212, 106, 6), rgb(146, 124, 2));
+            border-radius: 90px;
+            border-bottom: 2px inset black;
+            th{
+                width: 25%;
+                text-align: center;
+            }
+        }
+    }
+
+}
